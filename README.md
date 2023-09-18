@@ -1,27 +1,8 @@
 # Pix2Pix
-A clean, simple and readable implementation of Pix2Pix in PyTorch. I've tried to replicate the original paper as closely as possible, so if you read the paper the implementation should be pretty much identical. The results from this implementation I would say is on par with the paper, I'll include some examples results below.
+A clean, simple and readable implementation of Pix2Pix in PyTorch.
 
 ## Results
-The model was trained on the Maps dataset and for fun I also tried using it to colorize anime.
-
-|1st row: Input / 2nd row: Generated / 3rd row: Target|
-|:---:|
-|![](results/results_anime.png)|
-|![](results/results_maps.png)|
-
-
-### Maps dataset
-The dataset can be downloaded from Kaggle: [link](https://www.kaggle.com/vikramtiwari/pix2pix-dataset).
-
-### Anime dataset
-The dataset can be downloaded from Kaggle: [link](https://www.kaggle.com/ktaebum/anime-sketch-colorization-pair).
-
-### Download pretrained weights
-Pretrained weights for Satellite image to Google Map [here](https://github.com/aladdinpersson/Machine-Learning-Collection/releases/download/1.0/Pix2Pix_Weights_Satellite_to_Map.zip).
-
-Pretrained weights for Colorizing Anime [here](https://github.com/aladdinpersson/Machine-Learning-Collection/releases/download/1.0/Pix2Pix_Weights_Colorize_Anime.zip).
-
-Extract the zip file and put the pth.tar files in the directory with all the python files. Make sure you put LOAD_MODEL=True in the config.py file.
+The model was trained on the Maps dataset.
 
 ### Training
 Edit the config.py file to match the setup you want to use. Then run train.py
