@@ -25,4 +25,4 @@ We investigate conditional adversarial networks as a general-purpose solution to
 ```
 
 # Note
-Training on custom dataset requires the above shown image format for the dataloader to properly create the dataset for training.
+Training on custom dataset requires the above shown image format for the dataloader to properly create the dataset for training. The input and target images should be of the same dimensions and must be attached to each other.
