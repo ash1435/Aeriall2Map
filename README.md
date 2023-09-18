@@ -3,7 +3,7 @@ A clean, simple and readable implementation of Pix2Pix in PyTorch.
 
 ## Results
 The model was trained on the Maps dataset.
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/99168099/268786656-06e8d9e3-fa83-49fa-aa83-b29232b02fea.jpg" width="500" height="500"/>
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/99168099/268786656-06e8d9e3-fa83-49fa-aa83-b29232b02fea.jpg">
 
 ### Training
 Edit the config.py file to match the setup you want to use. Then run train.py
