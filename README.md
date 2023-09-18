@@ -24,5 +24,5 @@ We investigate conditional adversarial networks as a general-purpose solution to
 }
 ```
 
-#Note
+# Note
 Training on custom dataset requires the above shown image format for the dataloader to properly create the dataset for training.
