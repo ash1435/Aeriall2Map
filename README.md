@@ -23,3 +23,6 @@ We investigate conditional adversarial networks as a general-purpose solution to
       primaryClass={cs.CV}
 }
 ```
+
+#Note
+Training on custom dataset requires the above shown image format for the dataloader to properly create the dataset for training.
